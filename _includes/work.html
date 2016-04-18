@@ -14,10 +14,10 @@
       {% for project in site.data.settings.projects %}
       <label for="{{ project.folder }}">
         <div class="thumb-unit" data-folder="{{ project.folder }}">
-          <img src="assets/img/work/{{project.folder}}/thumb.jpg" alt="{{ project.name }}" />
+          <img src="{{site.baseurl}}/assets/img/work/{{project.folder}}/thumb.jpg" alt="{{ project.name }}" />
         </div>
         <div class="thumb-overlay">
-          <a href='{{project.url}}'><strong>{{ project.name }}</strong></a>
+          <a href='{{site.baseurl}}{{project.url}}'><strong>{{ project.name }}</strong></a>
         </div>
       </label>
       {% endfor %}
