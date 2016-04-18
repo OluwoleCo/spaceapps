@@ -1,31 +1,31 @@
-# Created by http://www.gitignore.io
 
-### OSX ###
-.DS_Store
-.AppleDouble
-.LSOverride
+### Windows ###
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
 
-# Icon must end with two \r
-Icon
+# Folder config file
+Desktop.ini
 
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
 
-# Thumbnails
-._*
+# Windows Installer files
+*.cab
+*.msi
+*.msm
+*.msp
 
-# Files that might appear on external disk
-.Spotlight-V100
-.Trashes
-
-# Directories potentially created on remote AFP share
-.AppleDB
-.AppleDesktop
-Network Trash Folder
-Temporary Items
-.apdisk
+# Windows shortcuts
+*.lnk
 
 
 ### Jekyll ###
 _site/
+.sass-cache/
+.jekyll-metadata
+
 
 ### Sass ###
-.sass-cache
+.sass-cache/
+*.css.map
